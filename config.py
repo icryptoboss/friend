@@ -19,11 +19,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1391520393"))
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002578433766"))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "#")) 
+CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002578433766")) 
 # -----------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://boss:w5dqmDzHeb0TaFUO@cluster0.pxyuklg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "@"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002578433766"))
 # -----------------------------------------------
 join = '<a href="https://t.me/proex_ch">✳️ Bᴀᴄᴋᴜᴘ</a>'
 # -----------------------------------------------
